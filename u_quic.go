@@ -90,6 +90,7 @@ func (q *UQUICConn) Close() error {
 		return nil // never started
 	}
 	q.conn.quic.cancel()
+	<-q.conn.quic.signalc
 	for range q.conn.quic.blockedc {
 		// Wait for the handshake goroutine to return.
 	}
