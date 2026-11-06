@@ -14,7 +14,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/refraction-networking/utls/internal/tls13"
+	"github.com/xtls/utls/internal/tls13"
 )
 
 // This file contains the functions necessary to compute the TLS 1.3 key

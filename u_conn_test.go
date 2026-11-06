@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/refraction-networking/utls/internal/testenv"
+	"github.com/xtls/utls/internal/testenv"
 )
 
 // helloStrategy is a sum type interface which allows us to pass either a ClientHelloID or a ClientHelloSpec and then act accordingly
