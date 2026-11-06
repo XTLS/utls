@@ -13,7 +13,7 @@ import (
 	"hash"
 	"log"
 
-	"github.com/refraction-networking/utls/internal/helper"
+	"github.com/xtls/utls/internal/helper"
 	"golang.org/x/crypto/cryptobyte"
 )
 
